@@ -3,6 +3,7 @@
 :root {
   --d-sidebar-active-color: #ffffff;
   --d-sidebar-link-color: #ffffff;
+  --d-topic-list-header-text-color: #ffffff;
 }
 
 // custom search banner customizations
@@ -201,12 +202,29 @@ div.ac-wrap {
   border-radius: 4px;
 }
 
+@keyframes d-header-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .d-header {
-  background: rgba(62, 52, 52, 0.50);
+  background: rgba(62, 52, 52, 0.70);
   border-radius: 0px 0px 16px 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
+  animation: d-header-enter 0.45s ease-out both;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
 }
 
 .d-header-icons .d-icon {
