@@ -1,9 +1,9 @@
 {
-  "name": "Air Theme",
+  "name": "Forum Passif",
   "component": false,
   "license_url": "https://github.com/discourse/discourse-air/blob/main/LICENSE",
-  "about_url": "https://meta.discourse.org/t/discourse-air-theme/197703",
-  "authors": "Discourse",
+  "about_url": "https://github.com/KillianTaieb/ForumPassifTheme",
+  "authors": "Discourse + Killyoh",
   "theme_version": null,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
