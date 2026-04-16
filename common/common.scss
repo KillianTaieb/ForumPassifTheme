@@ -1,5 +1,9 @@
 @use "lib/viewport";
 
+:root {
+  --d-sidebar-active-color: #ffffff;
+}
+
 // custom search banner customizations
 .welcome-banner.--location-above-topic-content .custom-search-banner-wrap {
   color: var(--primary);
