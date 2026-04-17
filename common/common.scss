@@ -329,7 +329,7 @@ html body #main-outlet {
   padding: 3em 3em 5%;
   max-width: 1150px;
   padding-bottom: 5% !important; // overriding inline style
-  
+
   @media screen and (width <= 700px) {
     padding: 1.5em;
     margin-top: 0;
@@ -646,6 +646,14 @@ html body #main-outlet {
 
 .topic-list .main-link.focused {
   box-shadow: none;
+}
+
+.topic-list .posters {
+  display: none!important;
+}
+
+.custom-author-column.topic-list-data {
+  align-content: center;
 }
 
 .title-voting {
