@@ -7,13 +7,13 @@
   --secondary-rgb : none;
 
   .boxed {
-    padding: 20px;
+    padding: 1.25rem;
     background: color-mix(in srgb, var(--secondary) 80%, transparent);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.085);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    box-shadow: 0 0.25rem 1.875rem rgba(0, 0, 0, 0.085);
+    backdrop-filter: blur(0.3125rem);
+    -webkit-backdrop-filter: blur(0.3125rem);
+    border: 0.0625rem solid rgba(255, 255, 255, 0.3);
   }
 
 }
@@ -41,12 +41,12 @@
   }
 
   .search-menu input[type="text"] {
-    border: 1px solid transparent;
+    border: 0.0625rem solid transparent;
     border-radius: 0.25em;
-    min-height: 40px;
+    min-height: 2.5rem;
 
     &:focus {
-      outline: 3px solid rgb(var(--primary-rgb), 0.35);
+      outline: 0.1875rem solid rgb(var(--primary-rgb), 0.35);
     }
   }
 
@@ -63,11 +63,11 @@
 
   .search-menu .search-input {
     border-color: var(--tertiary-hover);
-    outline: 1px solid var(--tertiary-hover);
+    outline: 0.0625rem solid var(--tertiary-hover);
   }
 
   .results {
-    top: 43px;
+    top: 2.6875rem;
     border-radius: 0.25em;
   }
 
@@ -116,7 +116,7 @@
 
 .topic-list .topic-list-header .topic-list-data,
 .topic-list .topic-list-item .topic-list-data {
-  padding: 15px 5px;
+  padding: 0.9375rem 0.3125rem;
 }
 
 .navigation-topics .topic-list .topic-list-body .topic-list-data,
@@ -211,7 +211,7 @@ input[type="color"],
 .select-kit.combo-box .select-kit-header,
 .d-editor-textarea-wrapper,
 div.ac-wrap {
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 
 @keyframes d-header-enter {
@@ -228,10 +228,10 @@ div.ac-wrap {
 
 .d-header {
   background: rgba(62, 52, 52, 0.70);
-  border-radius: 0px 0px 16px 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 0.25rem 1.875rem rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.1875rem);
+  -webkit-backdrop-filter: blur(0.1875rem);
   animation: d-header-enter 0.45s ease-out both;
 
   @media (prefers-reduced-motion: reduce) {
@@ -240,13 +240,13 @@ div.ac-wrap {
 }
 
 .d-header-icons .d-icon {
-  border-radius: 100px;
+  border-radius: 6.25rem;
 }
 
 .d-header-icons .icon {
   border-radius: 0.25em;
   margin-left: 0.3em;
-  border: 1px solid transparent;
+  border: 0.0625rem solid transparent;
 
   svg {
     font-size: 1.25em;
@@ -260,11 +260,11 @@ div.ac-wrap {
 .menu-panel.drop-down {
   margin-top: 1em;
   border-radius: 0.5em;
-  border: 1px solid var(--primary-low-mid);
+  border: 0.0625rem solid var(--primary-low-mid);
 }
 
 .drop-down-mode .d-header-icons .active .icon {
-  border: 1px solid transparent;
+  border: 0.0625rem solid transparent;
 
   .d-icon {
     color: var(--tertiary);
@@ -272,7 +272,7 @@ div.ac-wrap {
 }
 
 .drop-down-mode .d-header-icons .active .icon:hover {
-  border: 1px solid transparent;
+  border: 0.0625rem solid transparent;
 }
 
 .unread-high-priority-notifications {
@@ -318,33 +318,33 @@ html {
 }
 
 html body #main-outlet {
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 1.875rem;
+  margin-bottom: 3.125rem;
   background: rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);  border-radius: 1em;
+  border-radius: 1rem;
+  box-shadow: 0 0.25rem 1.875rem rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.3125rem);
+  -webkit-backdrop-filter: blur(0.3125rem);
+  border: 0.0625rem solid rgba(255, 255, 255, 0.3);  border-radius: 1em;
   padding: 3em 3em 5%;
-  max-width: 1150px;
+  max-width: 71.875rem;
   padding-bottom: 5% !important; // overriding inline style
 
-  @media screen and (width <= 700px) {
+  @media screen and (width <= 43.75rem) {
     padding: 1.5em;
     margin-top: 0;
   }
 
-  @media screen and (width <= 1120px) {
+  @media screen and (width <= 70rem) {
     width: 80%;
   }
 
-  @media screen and (width <= 1075px) {
+  @media screen and (width <= 67.1875rem) {
     width: 85%;
   }
 
   .archetype-regular & {
-    min-height: 500px;
+    min-height: 31.25rem;
   }
 }
 
@@ -359,13 +359,13 @@ html body #main-outlet {
   }
   background: var(--secondary);
   padding: 1em;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   margin-bottom: 1em;
 }
 
 .discourse-post-event-upcoming-events {
   background: var(--secondary);
-  border-radius: 8px;
+  border-radius: 0.5rem;
   padding: 1em;
   margin-bottom: 1em;
 }
@@ -428,22 +428,22 @@ html body #main-outlet {
       display: flex;
       margin-bottom: 0.5em;
       background-color: var(--secondary);
-      border: 1px solid rgb(var(--primary-rgb), 0.2);
+      border: 0.0625rem solid rgb(var(--primary-rgb), 0.2);
       border-radius: 1em;
       position: relative;
       transition: box-shadow 100ms ease-in-out;
-      box-shadow: 0 0 8px rgb(0, 0, 0, 0.05);
+      box-shadow: 0 0 0.5rem rgb(0, 0, 0, 0.05);
       overflow: hidden;
 
       &.visited {
-        border: 1px solid rgb(var(--primary-rgb), 0.1);
+        border: 0.0625rem solid rgb(var(--primary-rgb), 0.1);
 
         .discourse-tag {
           opacity: 0.75;
         }
 
         &:hover {
-          border: 1px solid rgb(var(--primary-rgb), 0.25);
+          border: 0.0625rem solid rgb(var(--primary-rgb), 0.25);
 
           .discourse-tag {
             opacity: 1;
@@ -453,8 +453,8 @@ html body #main-outlet {
 
       &:hover {
         background-color: var(--secondary);
-        box-shadow: 0 0 12px rgb(0, 0, 0, 0.1);
-        border: 1px solid rgb(var(--primary-rgb), 0.3);
+        box-shadow: 0 0 0.75rem rgb(0, 0, 0, 0.1);
+        border: 0.0625rem solid rgb(var(--primary-rgb), 0.3);
 
         a.title:not(.badge-notification),
         a.topic-excerpt {
@@ -502,8 +502,8 @@ html body #main-outlet {
         }
 
         &:focus-visible td:nth-of-type(2) {
-          box-shadow: inset 3px 0 0 var(--tertiary);
-          border-radius: calc(1em - 3px);
+          box-shadow: inset 0.1875rem 0 0 var(--tertiary);
+          border-radius: calc(1em - 0.1875rem);
         }
       }
     }
@@ -538,14 +538,14 @@ html body #main-outlet {
 
     .posters {
       .avatar {
-        width: 40px;
-        height: 40px;
-        border-radius: 8px;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 0.5rem;
         margin-left: 0.25rem;
       }
 
       a.latest {
-        margin-right: 4px;
+        margin-right: 0.25rem;
         width: 100%;
         height: 100%;
         display: flex;
@@ -562,7 +562,7 @@ html body #main-outlet {
         margin-left: -22px;
 
         .avatar {
-          border: 3px solid var(--secondary);
+          border: 0.1875rem solid var(--secondary);
         }
       }
     }
@@ -601,14 +601,14 @@ html body #main-outlet {
 
 // published page additions
 .published-page-content-wrapper {
-  max-width: 1000px;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  max-width: 62.5rem;
+  margin-top: 1.875rem;
+  margin-bottom: 3.125rem;
   background: var(--secondary);
   border-radius: 1em;
   padding: 3em 3em 5%;
   box-shadow:
-    0 24px 40px rgb(0, 0, 0, 0.07),
+    0 1.5rem 2.5rem rgb(0, 0, 0, 0.07),
     0 10.8529px 24.1177px rgb(0, 0, 0, 0.0456112),
     0 4.50776px 10.0172px rgb(0, 0, 0, 0.035),
     0 1.63037px 3.62304px rgb(0, 0, 0, 0.0243888);
@@ -642,7 +642,7 @@ html body #main-outlet {
 }
 
 .topic-list .main-link.focused + .posters {
-  box-shadow: inset 3px 0 0 var(--tertiary);
+  box-shadow: inset 0.1875rem 0 0 var(--tertiary);
 }
 
 .topic-list .main-link.focused {
@@ -654,7 +654,7 @@ html body #main-outlet {
 }
 
 .custom-author-column {
-    margin-left: 20px;
+    margin: 1.25rem;
 }
 
 .custom-author-column.topic-list-data {
@@ -662,5 +662,5 @@ html body #main-outlet {
 }
 
 .title-voting {
-  padding-left: 14px;
+  padding-left: 0.875rem;
 }
