@@ -17,6 +17,9 @@
     background: var(--secondary);
   }
 
+}
+
+body.archetype-default:not(.admin-interface) {
   .sidebar-wrapper svg {
     fill: #313131;
   }
