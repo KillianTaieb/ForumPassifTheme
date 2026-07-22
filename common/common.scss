@@ -653,9 +653,12 @@ html body #main-outlet {
   display: none!important;
 }
 
+.custom-author-column {
+    padding-left: 20px;
+}
+
 .custom-author-column.topic-list-data {
   align-content: center;
-  padding-left: 20px;
 }
 
 .title-voting {
